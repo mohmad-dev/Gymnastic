@@ -890,65 +890,25 @@ font-size: 1.2vw;
 }
 }
 
+@media only screen and (max-width: 600px) {
 
+   body {
 
-/* 
+      font-size: 14px;
 
-   <div id="t"  class="ff_service_wrapper">
-    <div class="container ct">
-      <div class="row">
-        <div class="col-lg-12 col-md-12">
-          <div class="ff_heading">
-            <h1> <span>  SERVICES</span> WE PROVIDE</h1>
-          </div>
-        </div>
-        <div class="col-lg-12 col-md-12">
-          <div class="ff_service_content">
-            <div class="ff_service_img">
-              <img src="imges/service.png" class="img-fluid d" title="service" alt="">
-            </div>
-            <div class="ff_service_text">
-              <ul>
-                <li data-aos="fade-left"  data-aos-offset="300">
-                  <div class="ff_service_data">
-                    <h2> <i class="fa-solid fa-dumbbell li"></i>Body Building </h2>
-                    <p>Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
-                  </div>
-                </li>
-                <li data-aos="zoom-in"  data-aos-offset="300">
-                  <div class="ff_service_data">
-                    <h2> <i class="fa-solid fa-dumbbell li"></i>Weight Lifting</h2>
-                    <p>Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
-                  </div>
-                </li>
-                <li data-aos="fade-left"   data-aos-offset="500">
-                  <div class="ff_service_data">
-                    <h2> <i class="fa-solid fa-dumbbell li"></i>Body Building </h2>
-                    <p>Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
-                  </div>
-                </li>
-                <li data-aos="fade-right"   data-aos-offset="300">
-                  <div class="ff_service_data">
-                    <h2>Cardio Fitness<i class="fa-solid fa-dumbbell li"></i></h2>
-                    <p>Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
-                  </div>
-                </li>
-                <li data-aos="zoom-in"  data-aos-offset="300">
-                  <div class="ff_service_data">
-                    <h2>Weight Lifting <i class="fa-solid fa-dumbbell li"></i></h2>
-                    <p>Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
-                  </div>
-                </li>
-                <li data-aos="fade-right"   data-aos-offset="500">
-                  <div class="ff_service_data">
-                    <h2>Cardio Fitness <i class="fa-solid fa-dumbbell li"></i></h2>
-                    <p>Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-   </div> */
+   }
+
+   h1 {
+
+      font-size: 1.5rem;
+
+   }
+
+   p {
+
+      font-size: 1rem;
+
+   }
+
+}
+
